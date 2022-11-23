@@ -1,0 +1,32 @@
+body{
+     text-align: center;
+     color: rgb(253, 253, 253);
+     font-size: 50PX;
+     background: radial-gradient(circle, rgb(4, 1, 85), rgb(253, 85, 85));
+     
+}
+.box{
+    width: 400px;
+    height: 400px;
+     margin: auto;
+    text-align: center;
+   
+}
+.board{
+    margin-left: 50%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+.board :hover{
+ background-color: rgb(85, 85, 85);
+ cursor: pointer;
+}
+
+
+.cell{
+    width: 60px;
+    height: 60px;
+    
+}
