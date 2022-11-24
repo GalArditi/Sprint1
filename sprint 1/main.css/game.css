@@ -1,9 +1,11 @@
 body{
      text-align: center;
      color: rgb(253, 253, 253);
-     font-size: 50PX;
-     background: radial-gradient(circle, rgb(4, 1, 85), rgb(253, 85, 85));
-     
+     background: radial-gradient(circle, rgb(131, 127, 255), rgb(53, 0, 0));
+     margin: auto;
+}
+h1{
+    font-size: 100pX;
 }
 .box{
     width: 400px;
@@ -17,16 +19,52 @@ body{
     width: 100px;
     height: 100px;
     cursor: pointer;
-
+    margin: auto;
 }
-.board :hover{
- background-color: rgb(85, 85, 85);
- cursor: pointer;
-}
-
 
 .cell{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.cellImg{
+    width: 70px;
+    height:70px;
+    
+}
+footer{
+    margin-right: 60%;
+}
+
+.restGame{
+    margin-bottom: 20px;
+    background-color: rgb(255, 0, 242);
+    font-size: 80px;
+    border-color: azure;
+    
+}
+.levelGame{
+    background-color: rgb(255, 0, 242);
+    font-size: medium;
+    border-radius: 100px;
+    color: aliceblue;
+    border-color: azure;
+    
+}
+.levelGame1{
+   background-color: rgb(255, 0, 242);
+   font-size: medium;
+   border-radius: 100px;
+   color: aliceblue;
+   border-color: azure;
+    
+}
+.levelGame2{
+    background-color: rgb(255, 0, 242);
+    font-size: medium;
+    border-radius: 100px;
+    color: aliceblue;
+    border-color: azure;
     
 }
